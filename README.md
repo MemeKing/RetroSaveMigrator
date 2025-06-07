@@ -1,4 +1,5 @@
-# RetroSaveRename
+# Retro Save Migrator
+
 
 If your ROM collection includes a lot of filenames that are inconsistent or unorganized you might be inclined to fix that.
 However this will create a problem because any renamed ROMs will no longer have a save file associated with them.
