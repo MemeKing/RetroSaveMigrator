@@ -3,7 +3,7 @@
 # Configuration
 ROMS_PATH="./Roms"
 SAVES_PATH="./Saves/CurrentProfile"
-SAVE_EXTENTIONS=(".dsv" ".sav" ".srm")
+SAVE_EXTENSIONS=(".dsv" ".sav" ".srm")
 DRY_RUN_MODE=false  # When true, don't actually rename files. Also includes sleeps
                     # in execution so you can see what's happening.  
 
@@ -12,8 +12,8 @@ DRY_RUN_MODE=false  # When true, don't actually rename files. Also includes slee
 
 # Initialize missing games list file.
 LOG_FILE="missing_games.txt"
-echo "Unmatched save files - $(date)" > "$log_file"
-echo "------" >> "$log_file"
+echo "Unmatched save files - $(date)" > "$LOG_FILE"
+echo "------" >> "$LOG_FILE"
 
 # Function to sanitize filenames while preserving numbered endings
 sanitize_name() {
