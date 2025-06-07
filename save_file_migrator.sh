@@ -7,9 +7,6 @@ SAVE_EXTENSIONS=(".dsv" ".sav" ".srm")
 DRY_RUN_MODE=false  # When true, don't actually rename files. Also includes sleeps
                     # in execution so you can see what's happening.  
 
-# Save file extensions used in search. Add extensions here if needed.
-
-
 # Initialize missing games list file.
 LOG_FILE="missing_games.txt"
 echo "Unmatched save files - $(date)" > "$LOG_FILE"
